@@ -47,7 +47,7 @@ function zjs_server_load() {
 
 	// bail out if this is a Windows OS or server load didn't return properly:
 	if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN' || !is_array($server_load)) {
-		echo '<p id="zjs-server-load">ZJS Server Load plugin compatiable with *nix servers only';
+		echo '<p id="zjs-server-load">ZJS Server Load plugin compatible with *nix servers only';
 		return;
 	}
 
